@@ -4,7 +4,7 @@ Capacitor plugin to enable features from Firebase Crashlytics
 
 > Android coming soon
 
-![Capacitor Firebase Crashlytics Plugin](https://i.imgur.com/F8cy3PQ.png)
+![Capacitor Firebase Crashlytics Plugin](https://i.imgur.com/d2JLtWt.gif)
 
 ## API
 
