@@ -97,6 +97,17 @@ Now you should be set to go. Try to run your client using `ionic cap run android
 
 > Tip: every time you change a native code you may need to clean up the cache (Build > Clean Project | Build > Rebuild Project) and then run the app again.
 
+### Build phase
+
+1. [Create a Fabric account](https://fabric.io/kits?show_signup=true)
+2. Go to [install instructions](https://fabric.io/kits/android/crashlytics/install)
+3. Follow steps on **Add a Run Script Build Phase**
+4. Follow steps on **Add Your API Key**
+
+After you build the app in xcode you should be able to link it in Firebase console. To start seeing logs in the panel, force a crash using method `crash` (app must not be running within xcode) and then re-start the app.
+
+### Not seeing a crash in the dashboard?
+
 ## Updating
 
 For existing projects you can upgrade all capacitor related packages (including this plugin) with this single command
@@ -111,8 +122,6 @@ https://github.com/stewwan/capacitor-crashlytics-demo
 
 - [capacitor-analytics](https://github.com/stewwan/capacitor-analytics)
 - [capacitor-fcm](https://github.com/stewwan/capacitor-fcm)
-- [capacitor-media](https://github.com/stewwan/capacitor-media)
-- [capacitor-datepick](https://github.com/stewwan/capacitor-datepick)
 - [capacitor-intercom](https://github.com/stewwan/capacitor-intercom)
 - [capacitor-twitter](https://github.com/stewwan/capacitor-twitter)
 
